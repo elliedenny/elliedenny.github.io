@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: seashell;
+}
+
+body#spring{
+    background-color:seashell;
+}
+
+body#fall{
+    background-color: seashell;
+}
+body#summer{
+    background-color:seashell;
+}
+body#winter{
+    background-color:seashell;
+}
+body#index{
+    background-color:seashell; 
+}
+
+#wrap{
+    width:80%;
+    margin: 0 auto;
+}
+
+header, nav, section, footer{
+    padding: 2%;
+    margin: 2%;
+    background-color: #fff;
+}
+
+header, footer{
+    background-color: burlywood; 
+    text-align: center;
+    color: white;
+    font-family: Georgia, serif; 
+}
+#home header, #home footer {
+    background-color:lightpink; 
+}
+#spring header, #spring footer {
+    background-color:lightpink; 
+}
+#fall header, #fall footer {
+    background-color:lightpink; 
+}
+#summer header, #summer footer {
+    background-color:lightpink; 
+}
+#winter header, #winter footer {
+    background-color:lightpink; 
+}
+nav{
+    background-color: black;
+    text-align: center;
+    font-size: x-large;
+    padding: 15px;
+    
+}
+section {
+    text-align: center; 
+    background-color: blanchedalmond;
+}
+#spring nav{
+    background-color:black; 
+}
+#fall nav{
+    background-color:black; 
+}
+#summer nav{
+    background-color:black; 
+}
+#winter nav{
+    background-color:black; 
+}
+nav ul{
+    margin:0;
+    padding:0;
+}
+nav li {
+    display: inline;
+    
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    text-align: center; 
+    
+}
+
+nav a:hover {
+    background-color: bisque; 
+}
+#fall section{
+    overflow:auto;
+    padding:0;
+    background-color: blanchedalmond;
+}
+section{
+    overflow:auto;
+    padding:0;
+    background-color: blanchedalmond;
+}
+.river {
+    float:right;
+    width:35%;
+    margin: 0 0 2% 2%;
+}
+.spring {
+    float:right;
+    width:35%;
+    margin: 0 0 2% 2%;
+}
+.summer {
+    float:right;
+    width:35%;
+    margin: 0 0 2% 2%;
+}
+.winter {
+    float:right;
+    width:35%;
+    margin: 0 0 2% 2%;
+}
+.fall {
+    float:right;
+    width:35%;
+    margin: 0 0 2% 2%;
+}
+    
+ @media screen and (max-width:800px) {
+        nav {
+    padding: 0;
+    
+}
+
+        nav,aside {
+            padding: 0;
+        }
+        #wrap {
+            width: 100%; 
+        }
+        body{
+            background-color: white;
+        }
+        
+        nav a{
+            display:block;
+            width:100%;
+        }
+        nav ul, nav li{
+            margin:0; 
+            padding:0;
+        }
+nav a {
+    display:block;
+    width:100%;
+    text-align:center;
+    padding: 20px 0;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+}
+nav ul, nav li,  {
+    margin:0;
+    padding:0;
+}
+     .fall {
+         width: 96%;
+         float: none;
+         margin:0; 
+     }
+     }
