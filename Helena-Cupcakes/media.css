@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #aaa;
+}
+
+#wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header, nav, section, footer {
+    padding: 2%;
+    margin:0;
+    background-color: #fff;
+}
+
+header, footer {
+    background-color: blue;
+    text-align: center;
+    color: white;
+    font-family: Georgia, serif;
+}
+
+nav {
+    background-color: red;
+    text-align: center;
+    font-size: x-large;
+    padding: 13px;
+}
+
+nav ul {
+    margin:0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+}
+
+nav a:hover, aside a:hover {
+    background-color: #900;
+}
+
+aside {
+    background-color: aqua;
+    width: 24%;
+    float: left;
+}
+
+aside li {
+    list-style-type: none;
+}
+
+article {
+    background-color: orchid;
+    width: 69%;
+    float: right;
+    padding: 1% 3%;
+    border-left: 4px solid black;
+}
+
+section {
+    overflow: auto;
+    padding: 0;
+    margin:0;
+    background-color: aqua;
+}
+
+.bird {
+    float:right;
+    width: 35%;
+    margin: 0 0 2% 2%;
+}
+
+@media screen and (min-width:801px) and (max-width:1000px){
+    
+    nav {
+        font-size: smaller;
+    }
+    body {
+        background-color: coral;
+    }
+}
+
+@media screen and (max-width:800px) {
+    nav, aside {
+        padding: 0;
+    }
+    
+    #wrap {
+        width: 100%;
+    }
+    
+    body {
+        background-color: white;
+    }
+    
+    article, aside {
+        float: none;
+        width: 93.5%;
+        margin: 0;
+    }
+    
+    aside {
+        width:100%;
+    }
+    
+    nav a, aside a {
+        display:block;
+        width: 100%;
+        text-align:center;
+        padding: 20px 0;    
+    }
+    aside a {
+        text-decoration: none;
+        padding: 15px 0;
+        font-size: larger;
+    }
+    nav ul, nav li, aside ul, aside li {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .bird {
+        width:99%;
+        float:none;
+        margin:0;
+    }
+    
+}
+    
